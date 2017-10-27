@@ -14,8 +14,7 @@ public class AssignmentTen {
 
         StackOfIntegers stack = new StackOfIntegers();      // Creates StackOfIntegers
 
-        // Find and push prime numbers less than 120 to stack
-        for (int i = 2; i < 120; i++) {
+        for (int i = 2; i < 120; i++) {         // Find and push prime numbers less than 120 to stack
             if (isPrime(i))
                 stack.push(i);
         }
